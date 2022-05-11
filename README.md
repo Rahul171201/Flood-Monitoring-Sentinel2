@@ -39,3 +39,24 @@ Now finally we move towards building the feature vector space.
 Building the FVS involves again taking 5 x 5 blocks from the difference image, flattening them, and lastly projecting them onto the EVS, only this time, the blocks will be overlapping.
 
 The feature vectors for the pixels carry information whether the pixels have characteristics of a changed pixel or an unchanged one. Having constructed the feature vector space, we now need to cluster it so that the pixels can be grouped into two disjoint classes. We will be using the K-means algorithm to do that. 
+
+# Results
+We can clearly see the difference between the images of before and after the rainy season. After the rainy season the water bodies have got thicker. We will monitor this change in water area.
+![alt text](https://github.com/Rahul171201/Flood-Monitoring-Sentinel2/blob/main/images/impactOfFlood.jpeg?raw=true)
+
+The change map denotes the change in water area. We have used 2 types of pixel values for our K-Means clustering that are 0 and 255 respectively. 0 represents black while 255 represents white.
+
+![alt text](https://github.com/Rahul171201/Flood-Monitoring-Sentinel2/blob/main/images/changemap1.jpeg?raw=true)
+
+![alt text](https://github.com/Rahul171201/Flood-Monitoring-Sentinel2/blob/main/images/changemap2.jpeg?raw=true)
+
+# Run
+    python main.py
+
+# Concluding Remark
+One of the most fundamental requirements of change detection is the registration between the two input images.It implies that the images should have perfect alignment between them, otherwise change detection would give many false alarms.
+
+Water level monitoring helps to provide an early warning system of any likely flooding situation, providing valuable time to protect assets, move valuables and protect property.
+
+
+
