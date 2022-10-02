@@ -42,13 +42,17 @@ The feature vectors for the pixels carry information whether the pixels have cha
 
 # Results
 We can clearly see the difference between the images of before and after the rainy season. After the rainy season the water bodies have got thicker. We will monitor this change in water area.
-![alt text](https://github.com/Rahul171201/Flood-Monitoring-Sentinel2/blob/main/images/impactOfFlood.jpeg?raw=true)
+
+![s3](https://user-images.githubusercontent.com/70642284/193470033-99c0d24f-bb2a-4b75-84ff-679e7526251a.jpeg)
+
 
 The change map denotes the change in water area. We have used 2 types of pixel values for our K-Means clustering that are 0 and 255 respectively. 0 represents black while 255 represents white.
 
-![alt text](https://github.com/Rahul171201/Flood-Monitoring-Sentinel2/blob/main/images/changemap1.jpeg?raw=true)
 
-![alt text](https://github.com/Rahul171201/Flood-Monitoring-Sentinel2/blob/main/images/changemap2.jpeg?raw=true)
+![s1](https://user-images.githubusercontent.com/70642284/193470043-516fa86d-26a0-45ce-a663-fb152cb47e15.jpeg)
+
+![s2](https://user-images.githubusercontent.com/70642284/193470047-11a84d08-a8dd-4694-9828-e89475043913.jpeg)
+
 
 # Run
     python main.py
